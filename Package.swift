@@ -20,9 +20,6 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages which this package depends on.
         .target(
             name: "ios_system_package",
-            dependencies: []),
-        .testTarget(
-            name: "ios_system_packageTests",
-            dependencies: ["ios_system_package"]),
+            dependencies: [])
     ]
 )
