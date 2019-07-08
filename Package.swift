@@ -7,7 +7,7 @@ let package = Package(
     name: "ios_system_package",
     products: [
         // Products define the executables and libraries produced by a package, and make them visible to other packages.
-        .executable(
+        .library(
             name: "ios_system_package",
             targets: ["ios_system_package"]),
     ],
